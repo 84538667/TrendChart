@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrendChart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_tip">请输入办公网账号密码</string>
+    <string name="tju_username">办公网账号</string>
+    <string name="tju_pwd">办公网密码</string>
+    <string name="submit">确认</string>
+    <string name="back">返回</string>
+    <string name="del_rec">删除记录</string>
+    <string name="keep_pwd">记住密码</string>
+</resources>

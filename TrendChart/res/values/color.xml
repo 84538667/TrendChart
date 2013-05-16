@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twtgrey">#1078F8</color>
+    <color name="grey">#b3b3b3</color>
+    <color name="twt_login_button_pressed">#FAA21E</color>
+    <color name="twt_login_button_start">#3EA8F9</color>
+    <color name="twt_login_button_end">#067ED9</color>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="contents">#4F4F4F</color>
+    <color name="transparent">#50000000</color>
+    <color name="background">#f3f5e7</color>
+</resources>

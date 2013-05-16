@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+
+    <EditText
+        android:id="@+id/userEditText"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/tju_username"
+        />
+	<EditText
+	    android:id="@+id/pwdEditText"
+	    android:inputType="textPassword"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/tju_pwd"
+        android:layout_below="@id/userEditText"
+        />
+
+	<Button
+	    android:id="@+id/submit"
+	    android:background="@drawable/login_button"
+	    android:layout_width="fill_parent"
+	    android:text="@string/submit"
+	    android:textColor="@android:color/white"
+	    android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/pwdEditText"/>
+		
+	<CheckBox 
+        android:id="@+id/store_password"
+   	 	android:text="@string/keep_pwd" 
+        android:layout_width="wrap_content" 
+	    android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/submit"
+   	 	/>
+
+	<Button
+	    android:id="@+id/del_password"
+	    android:background="@drawable/login_button"
+	    android:text="@string/del_rec"
+        android:layout_width="wrap_content" 
+	    android:textColor="@android:color/white"
+	    android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+	    android:layout_height="wrap_content"
+		android:layout_below="@id/submit" 
+		android:layout_toRightOf="@id/store_password"
+		android:layout_alignRight="@id/submit"/>
+	
+	<ProgressBar
+	    android:id="@+id/prog_bar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:layout_centerInParent="true"
+	    android:visibility="invisible"
+	    android:layout_below="@id/del_password"
+	    />
+	    
+</RelativeLayout>
